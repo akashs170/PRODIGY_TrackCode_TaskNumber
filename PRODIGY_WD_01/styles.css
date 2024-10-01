@@ -1,0 +1,97 @@
+/* General styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    padding: 100px;
+    height: 100vh;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+
+#home {
+    background-color: #a19f9f;
+    line-height: 100vh;
+}
+
+#about {
+    background-color: #d9d9d9;
+}
+
+#services {
+    background-color: #bfbfbf;
+}
+
+#contact {
+    background-color: #a6a6a6;
+}
+
+/* Navigation Menu */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0e0e0e;
+    padding: 10px 0;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect on menu items */
+.navbar a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Change the style of navbar when scrolling */
+.scrolled {
+    background-color: #070f4e;
+   
+}
+
+.scrolled a:hover {
+    background-color: rgb(4, 106, 106);
+}
+
+.scrolled a {
+    color: chocolate;
+}
+
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    .navbar ul {
+        display: block;
+    }
+
+    .navbar li {
+        display: block;
+        margin: 10px 0;
+    }
+}

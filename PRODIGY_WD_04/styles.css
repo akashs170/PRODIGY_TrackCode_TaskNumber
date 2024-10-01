@@ -1,0 +1,83 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  position: relative;
+  z-index: 1;
+}
+
+/* Input styles */
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Weather info styles */
+.weather-info {
+  margin-top: 20px;
+}
+
+.weather-info h2 {
+  font-size: 24px;
+}
+
+.weather-info p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+/* Gradient Square */
+.gradient-square {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #4a90e2, #5c67a6);
+  position: absolute;
+  top: -50px;
+  left: -50px;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+/* Gradient Circle */
+.gradient-circle {
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(circle, #4a90e2, #5c67a6);
+  position: absolute;
+  bottom: -75px;
+  right: -75px;
+  z-index: 0;
+  border-radius: 50%;
+}
